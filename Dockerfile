@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM debian:9
 
 MAINTAINER Skyler Fly-Wilson "skyler@skylerfly.com"
 
