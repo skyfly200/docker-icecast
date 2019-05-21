@@ -15,7 +15,7 @@ $BROWSER localhost:80
 Run with custom password and hostname
 
 ```bash
-docker run -p 80:8000 -e ICECAST_SOURCE_PASSWORD=aaaa -e ICECAST_ADMIN_PASSWORD=bbbb -e ICECAST_PASSWORD=cccc -e ICECAST_RELAY_PASSWORD=dddd -e ICECAST_MASTER_PASSWORD=eeee -e ICECAST_HOSTNAME=localhost moul/icecast
+docker run -p 80:8000 -e ICECAST_SOURCE_PASSWORD=aaaa -e ICECAST_ADMIN_PASSWORD=bbbb -e ICECAST_PASSWORD=cccc -e ICECAST_RELAY_PASSWORD=dddd -e ICECAST_MASTER_PASSWORD=eeee -e ICECAST_HOSTNAME=localhost skyfly200/icecast
 ```
 
 Run with custom configuration
