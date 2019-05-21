@@ -52,7 +52,7 @@ if [ -n "$ICECAST_MASTER_SERVER_PORT" ]; then
     sed -i "s/<master-server-port>[^<]*<\/master-server-port>/<master-server-port>$ICECAST_MASTER_SERVER_PORT<\/master-server-port>/g" /etc/icecast2/icecast.xml
 fi
 
-if [ -n "$ICECAST_MATER_PASSWORD" ]; then
+if [ -n "$ICECAST_MASTER_PASSWORD" ]; then
     sed -i "s/<master-password>[^<]*<\/master-password>/<master-password>$ICECAST_MASTER_PASSWORD<\/master-password>/g" /etc/icecast2/icecast.xml
 fi
 
