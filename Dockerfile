@@ -1,6 +1,6 @@
 FROM ubuntu:xenial
 
-MAINTAINER Manfred Touron "m@42.am"
+MAINTAINER Skyler Fly-Wilson "skyler@skylerfly.com"
 
 ENV DEBIAN_FRONTEND noninteractive
 
