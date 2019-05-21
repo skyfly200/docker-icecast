@@ -1,7 +1,7 @@
 # Icecast in Docker
 Icecast2 Dockerfile
 
-[![](http://dockeri.co/imageskyfly200/icecast)](https://index.docker.io/u/skyfly200/icecast/)
+[![](http://dockeri.co/image/skyfly200/icecast)](https://index.docker.io/u/skyfly200/icecast/)
 
 ## Run
 
